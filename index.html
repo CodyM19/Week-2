@@ -1,0 +1,107 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Game Boy Revival</title>
+    <meta
+      name="description"
+      content="Retro product showcase for a vintage 1989 Game Boy in a bold, interactive 3D landing page."
+    />
+    <link rel="preconnect" href="https://fonts.googleapis.com" />
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
+    <link
+      href="https://fonts.googleapis.com/css2?family=Inter:wght@400;500;600;700;800&family=Press+Start+2P&display=swap"
+      rel="stylesheet"
+    />
+  </head>
+  <body>
+    <div class="page-shell">
+      <header class="topbar">
+        <div class="brand">NINTENDO</div>
+        <nav class="nav">
+          <a href="#features">Features</a>
+          <a href="#story">Story</a>
+          <a href="#cta">Shop</a>
+        </nav>
+      </header>
+
+      <main>
+        <section class="hero reveal">
+          <div class="hero-copy">
+            <p class="eyebrow">Retro collector's edition</p>
+            <h1>Pokémon <span>Game Boy</span></h1>
+            <p class="lead">Retro and vintage video game console from the late 80's.</p>
+            <div class="hero-actions">
+              <a class="primary" href="#cta">Buy It Now</a>
+              <button class="secondary" type="button" data-scroll-target="#features">
+                Explore features
+              </button>
+            </div>
+          </div>
+
+          <div class="hero-visual" aria-label="3D Game Boy showcase">
+            <div id="canvas-target"></div>
+          </div>
+        </section>
+
+        <section id="features" class="features">
+          <div class="section-heading">
+            <p class="eyebrow">3 iconic features</p>
+            <h2>The heart of the classic.</h2>
+          </div>
+
+          <div class="feature-grid">
+            <article class="feature-card active">
+              <span class="feature-index">01</span>
+              <h3>Screen</h3>
+              <p>
+                The glowing pixel screen brings every game to life with a warm retro glow and a timeless monochrome look.
+              </p>
+            </article>
+            <article class="feature-card">
+              <span class="feature-index">02</span>
+              <h3>Buttons</h3>
+              <p>
+                Responsive directional controls and command buttons make every move feel tactile and playful.
+              </p>
+            </article>
+            <article class="feature-card">
+              <span class="feature-index">03</span>
+              <h3>Cartridge</h3>
+              <p>
+                The removable game card adds a collectible feel and a little bit of magic to every session.
+              </p>
+            </article>
+          </div>
+        </section>
+
+        <section id="story" class="story">
+          <div class="story-copy">
+            <p class="eyebrow">Built for nostalgia</p>
+            <h2>Turn, hover, scroll, and explore every layer.</h2>
+            <p>
+              The console is designed to be the first thing you see, centred in the middle and large enough to feel collectible.
+              Click and hold to rotate the Game Boy, hover to enlarge it with a soft glow, and scroll to reveal the inner design.
+            </p>
+          </div>
+          <div class="story-panel">
+            <ul>
+              <li>Rotate the device</li>
+              <li>Glow on hover</li>
+              <li>Exploded shell reveal</li>
+            </ul>
+          </div>
+        </section>
+
+        <section id="cta" class="cta">
+          <p class="eyebrow">Available Now</p>
+          <h3>Bring home the icons of the 80s.</h3>
+          <a class="primary large" href="#">Buy It Now</a>
+        </section>
+      </main>
+    </div>
+
+    <script type="module" src="./src/main.js"></script>
+  </body>
+</html>
